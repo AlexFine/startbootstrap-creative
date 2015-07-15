@@ -233,22 +233,35 @@
                     <hr class="primary">
                     <p>Fill out the form below to apply.</p>
                 </div>
+                
                 <div  style="width:80%; padding-left:20%;">
-                  <input type="text" class="form-control" placeholder="First and Last Name" aria-describedby="basic-addon1">
+                    <form name="contactform" method="post" action="http://base.codes/newbaseemail.php">
+                  <input type="text" class="form-control" placeholder="First and Last Name" aria-describedby="basic-addon1" id="name">
                     <br>
-                    <input type="text" class="form-control" placeholder="What school do you go to?" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1" id="email">
+                    <br>
+                    <input type="text" class="form-control" placeholder="What school do you go to?" aria-describedby="basic-addon1" id="school">
                   <br>
-                    <input type="text" class="form-control" placeholder="What city do you live in?" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" placeholder="What city do you live in?" aria-describedby="basic-addon1" id="city">
                     <br>
-                    <input type="text" class="form-control" placeholder="Two-Three sentence description of idea" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" placeholder="Two-Three sentence description of idea" aria-describedby="basic-addon1" id="idea">
                     <br>
-                  <input type="text" class="form-control" placeholder="Write a sentence about each team member and why you're the team to execute on this idea" aria-describedby="basic-addon1">
+                  <input type="text" class="form-control" placeholder="Describe the strengths and weaknesses of each team member" aria-describedby="basic-addon1" id="strengths">
                     <br>
-                    <input type="text" class="form-control" placeholder="Progress so far, link to demo" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" placeholder="Why are you the team to execute on this idea?" aria-describedby="basic-addon1" id="team">
                     <br>
-                    <input type="text" class="form-control" placeholder="Link to pitchdeck" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" placeholder="What's your greatest challenge?" aria-describedby="basic-addon1" id="challenge">
                     <br>
-                    <input type="text" class="form-control" placeholder="Link to pitchdeck" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" placeholder="What is your approach to tackling your greatest challenge?" aria-describedby="basic-addon1" id="approach">
+                    <br>
+                    <input type="text" class="form-control" placeholder="Progress so far, link to demo" aria-describedby="basic-addon1" id="progress">
+                    <br>
+                    <input type="text" class="form-control" placeholder="Link to pitchdeck" aria-describedby="basic-addon1" id="pitch">
+                    <br>
+                        <input type="text" class="form-control" placeholder="Any other comments?" aria-describedby="basic-addon1" id="other">
+                    <br>
+                <a  href="http://base.codes/newbaseemail.php" class="btn btn-primary btn-xl page-scroll text-center" type="submit">Submit!</a>
+
  </div>
             </div>
         </div>
